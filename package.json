@@ -1,0 +1,20 @@
+{
+  "name": "cortico-world-memory-distiller",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/definition.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["cortico-world", "memory", "distiller"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "cortico": {
+    "kind": "world",
+    "api": 6,
+    "tags": ["memory"]
+  }
+}
